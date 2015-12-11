@@ -9,6 +9,7 @@ minetest.register_node(":streets:concrete_corner",{
 			 "streets_asphalt.png", 
 			 "streets_asphalt.png", 
 			 "streets_concrete.png"},
+	paramtype2 = "facedir",
 	groups = {cracky=2}
 })
 
@@ -20,6 +21,7 @@ minetest.register_node(":streets:concrete_corner_round",{
 			 "streets_asphalt.png", 
 			 "streets_asphalt.png", 
 			 "streets_concrete.png"},
+	paramtype2 = "facedir",
 	groups = {cracky=2}
 })
 
@@ -31,5 +33,6 @@ minetest.register_node(":streets:concrete_corner_round_inside",{
 			 "streets_concrete.png",
 			 "streets_concrete.png", 
 			 "streets_asphalt.png"},
+	paramtype2 = "facedir",
 	groups = {cracky=2}
 })
